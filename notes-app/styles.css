@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.note {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.note h3 {
+  margin-top: 0;
+}
+
+.note p {
+  margin-bottom: 5px;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
